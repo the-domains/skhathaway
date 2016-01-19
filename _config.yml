@@ -1,28 +1,40 @@
-name: SKHathaway
 favicon: null
-layout_spectrum: 1
-typography_spectrum: 0.8528344077058136
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: SKHathaway
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
+  saturation: 1
+  brandStrength: 0.9683913900516927
+  lightness: 0.5537634
   brandColors:
     - '#0b0100'
     - '#b8b892'
     - '#9b3b01'
     - '#f6feff'
     - '#8b8666'
-  brandStrength: 0.9683913900516927
-  lightness: 0.5147686798591167
-  saturation: 0.3926775334402919
-  rhythmicContrast: 0.39655004628002644
-purpose: []
+  rhythmicContrast: 0.3207885
+typography_spectrum: 0.9211469
+layout_spectrum: 0.718638
+cta:
+  bucket: null
+  version: null
+  domain: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
