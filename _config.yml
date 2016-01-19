@@ -1,7 +1,5 @@
-cta:
-  bucket: null
-  version: null
-  domain: null
+favicon: null
+name: SKHathaway
 opengraph:
   image: null
   type: null
@@ -30,11 +28,13 @@ color:
     - '#f6feff'
     - '#8b8666'
   rhythmicContrast: 0.3207885
-typography_spectrum: 0.9211469
-layout_spectrum: 1
+typography_spectrum: 0.5860215
+cta:
+  bucket: null
+  version: null
+  domain: null
 analytics:
   twitter: null
   google: null
   facebook: null
-favicon: null
-name: SKHathaway
+layout_spectrum: 1
